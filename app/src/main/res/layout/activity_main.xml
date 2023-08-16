@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="142dp"
+        android:layout_height="129dp"
+        app:srcCompat="@drawable/calculator"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="28dp"
+    />
+    <EditText
+        android:id="@+id/etFirstValue"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_margin="5dp"
+android:ems="10"
+android:hint="enter_first_number"
+android:inputType="number"
+android:textColor="#E80707"
+android:textColorHighlight="#000000"
+android:textColorLink="#000000"
+tools:layout_editor_absoluteX="86dp"
+tools:layout_editor_absoluteY="305dp" />
+
+<EditText
+android:id="@+id/etSecondValue"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_margin="5dp"
+android:ems="10"
+android:hint="enter_second_number"
+android:inputType="number"
+android:textColor="#E80707"
+android:textColorHighlight="#000000"
+android:textColorLink="#000000"
+tools:layout_editor_absoluteX="86dp"
+tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#040404"
+        android:textColorHint="#E3D9D9"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="+"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="-"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="/"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="*"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+<TextView
+android:id="@+id/textView4"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Developed by @Mayank_sharma"
+    />
+</LinearLayout>
